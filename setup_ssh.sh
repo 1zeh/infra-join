@@ -8,10 +8,9 @@ set -e
 # of the user running the script.
 #
 # Usage:
-#   wget -O - https://1zeh.github.io/infra/setup_ssh.sh | bash
+#   wget -O - https://1zeh.github.io/infra-join/setup_ssh.sh | bash
 # ----------------------------------------------------------------------
 
-# REPLACE THE VALUE BELOW WITH YOUR ACTUAL PUBLIC KEY
 PUBLIC_KEY="ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGbvQMoYfVIp8/WxrGrzy+mn3AMyWLFJ6UyYjBl3txq/" 
 KEY_COMMENT="ansible-deploy-key"
 
